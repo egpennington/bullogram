@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ededed;
+  max-width: 468px;
+  margin: 10px auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  max-width: 375px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  font-family: 'Lobster', cursive;
+}
+
+img {
+  width: 375px;
+  height: 375px;
+}
+
+header img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+section {
+  background: #fff;
+  padding: 15px 0;
+}
+
+#container-el {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.top {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  padding: 0 15px;
+}
+
+.symbols {
+  padding: 15px;
+}
+
+.symbols i {
+  margin-right: 10px;
+}
+
+/* utilities */
+.txt-sm {
+  font-size: 12px;
+  font-weight: 400;
+}
+.txt-med {
+  font-size: 13px;
+}
+.txt-bold {
+  font-weight: 700;
+}
+
+.pd-15 {
+  padding: 15px;
+}
+
+.pd-l {
+  padding-left: 15px;
+}
+
+.mr-r {
+  margin-right: 3px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
