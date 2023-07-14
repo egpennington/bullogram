@@ -34,7 +34,7 @@ const posts = [
         username: "lbv2323",
         avatar: "images/baileybugavatar.jpg",
         location: "Dickinson, Texas",
-        image: "images/baileybug.jpg",
+        image: "images/baileybug2.jpg",
         comment: "IMHO, whoever said diamonds are a girl's best friend, never had a dog.",
         likes: 426
     }
